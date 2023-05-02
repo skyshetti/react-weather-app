@@ -1,0 +1,10 @@
+.cityWeatherContainer {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.card {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

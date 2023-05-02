@@ -1,0 +1,50 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../images/grassy-field-with-leafless-trees-distance-cloudy-sky-background_181624-4535.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.inputElement {
+  margin-top: 100px;
+  width: 300px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: 2px;
+  border-color: black;
+  border-radius: 35px;
+  box-shadow: 4px 7px 4px rgba(0, 0, 0, 0.15);
+}
+
+.error {
+  color: rgb(165, 7, 7);
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+}
+.input-button {
+  background-color: rgb(56, 56, 199);
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input {
+  margin-left: 10px;
+}
